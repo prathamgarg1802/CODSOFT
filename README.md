@@ -1,2 +1,2 @@
-This is my first assigned task /project in web development course learning.
-I have created a landing page using html and css.
+These are my assigned tasks /projects in web development learning course.
+I have created these projects using html and css.
