@@ -1,2 +1,198 @@
-this is the first task.
-  task is to create a landing page using html and css
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTICOLOR NAVBAR</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Noto+Serif:wght@600&family=Ubuntu:wght@300&display=swap');
+    </style>
+    <style>
+        :root {
+            --1: green;
+            --2: rgba(233, 222, 243, 0.466);
+            --3: rgb(1, 5, 8);
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--2);
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: center;
+            background-color: var(--1);
+        }
+
+        .navbar ul {
+            position: sticky;
+            top: 0px;
+        }
+
+
+        .navbar ul li {
+            list-style-type: none;
+            margin: 15px;
+            padding: 15px;
+            font-weight: bold;
+            color: var(--3);
+            cursor: pointer;
+        }
+
+        ul li:hover {
+            background-color: rgb(45, 202, 85);
+            border-radius: 30px;
+        }
+
+        .box {
+            background-color: rgba(11, 207, 207, 0.925);
+            padding: 20px;
+        }
+
+        .box h1 {
+            text-align: center;
+            font-size: 4em;
+            font-weight: bold;
+        }
+
+        .box p {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2em;
+        }
+
+        .box img {
+            float: left;
+            width: 170px;
+            height: 90px;
+            border-radius: 200%;
+
+        }
+
+        #SEARCH {
+            float: right;
+            background-color: rgba(7, 100, 100, 0.664);
+            border-radius: 20px;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+            font-weight: bold;
+        }
+
+        input::placeholder {
+            color: white;
+        }
+
+        .boxes {
+            background-color: red;
+            margin: 12px 34px;
+            text-align: center;
+            padding: 55px 23px;
+
+        }
+
+        .container1 {
+            background-image: url(https://foundr.com/wp-content/uploads/2023/04/How-to-create-an-online-course.jpg.webp);
+            height: 70vh;
+            width: 45%;
+            margin: 10px 12px;
+            background-color: palevioletred;
+            display: inline-block;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .container2 {
+            background-image: url(https://img.freepik.com/free-vector/flat-design-online-courses-illustration_23-2148528493.jpg);
+            height: 70vh;
+            width: 45%;
+            margin: 10px 12px;
+            background-color: blue;
+            display: inline-block;
+            background-size: cover;
+            background-position: center;
+        }
+
+        footer {
+            height: 130px;
+            background-color: rgb(128, 75, 11);
+        }
+
+        footer img {
+            border-radius: 20px;
+            margin-top: 80px;
+            margin-left: 10px;
+        }
+
+        footer h4 {
+            display: inline;
+            font-size: 1.5em;
+        }
+
+        footer h2 {
+            display: inline;
+            font-size: 1.5em;
+            /* background-color: white; */
+            /* border-radius: 60px; */
+        }
+
+        .section {
+            background-color: black;
+            height: 20vh;
+            margin: 10px 0;
+            color: white;
+            text-align: center;
+            font-size: 2em;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="https://i.pinimg.com/originals/16/9a/12/169a127e655da2f16a3309d9f1cb6225.jpg" alt="">
+        <input type="search" name="SEARCH " id="SEARCH" placeholder="     --  SEARCH HERE  --">
+        <h1>LEARNING WITH UPGRAD!!!!</h1>
+        <P>(Where learning meets innovation.....)</P>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SOURCES</li>
+            <li>CONTACT</li>
+        </ul>
+        <div class="boxes">
+            <div class="container1"></div>
+            <div class="container2"></div>
+        </div>
+        <div class="section">
+            WELCOME TO MY LEARNING PLATFORM!!!
+            <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque facilis modi consequatur optio minima
+            facere fugiat magnam, nesciunt cumque, voluptatem ex maxime quia adipisci ad!
+        </div>
+    </div>
+    <footer>
+        <img src="https://t4.ftcdn.net/jpg/03/92/71/99/360_F_392719944_L0LYv3e7QozB2tsj3CfUN0HPC8eZQOWb.jpg" alt=""
+            width="130px">
+        <h4>For more details contact us on 📞 0562-2424554
+            📧 Mail us on gargpratham76@gmail.com </h4>
+        <h2> &copy;</h2>
+        <h2> &reg;</h2>
+    </footer>
+</body>
+
+</html>
